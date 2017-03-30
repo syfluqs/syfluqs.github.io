@@ -1,0 +1,6 @@
+---
+title: testing 5
+layout: post
+---
+
+some text herer and there

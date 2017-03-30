@@ -1,6 +1,9 @@
 # Dependencies
-markdown:         kramdown
-highlighter:      pygments
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  hard_wrap: false
 
 # Permalinks
 permalink:        pretty
@@ -18,7 +21,3 @@ author:
   url:            https://github.com/syfluqs
 
 paginate:         5
-
-# Jekyll options
-# source :          ./src
-# destination :     ./

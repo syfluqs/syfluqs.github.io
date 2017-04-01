@@ -10,9 +10,9 @@ permalink:        pretty
 relative_permalinks: false
 
 # Setup
-title:            
+title:            'Shitty Dev Notes'
 tagline:          'Shitty Dev Notes'
-description:      'Nothing to see here, human. Move Along.'
+description:      'Nothing to see here, human. Move along.'
 url:              https://syfluqs.github.io
 baseurl:          /
 
@@ -20,4 +20,4 @@ author:
   name:           'syfluqs'
   url:            https://github.com/syfluqs
 
-paginate:         5
+paginate:         4

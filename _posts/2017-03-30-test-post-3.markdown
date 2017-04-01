@@ -5,7 +5,6 @@ layout: post
 
 ## lets see some code again ##
 
-```c
 <div>
 {% highlight c linenos %}
 #include <avr/io.h>
@@ -422,4 +421,4 @@ void serialEvent() {
   }
 }
 {% endhighlight %}
-```
+</div>

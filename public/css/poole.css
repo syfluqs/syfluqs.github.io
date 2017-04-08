@@ -444,6 +444,7 @@ pre.highlight {
 .post-title,
 .post-title a {
   color: #303030;
+  font-size: 3.5rem;
 }
 .page-title,
 .post-title {
@@ -456,6 +457,7 @@ pre.highlight {
   margin-top: -.5rem;
   margin-bottom: 1rem;
   color: #9a9a9a;
+  font-style: italic;
 }
 
 /* Related posts */

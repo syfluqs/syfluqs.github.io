@@ -21,3 +21,8 @@ author:
   url:            https://github.com/syfluqs
 
 paginate:         4
+
+#image_optimzer config
+# raw_images:       raw_img
+# opt_images:       assets
+# images_link:      assets

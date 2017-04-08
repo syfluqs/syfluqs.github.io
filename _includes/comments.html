@@ -4,7 +4,8 @@
 <script>
 gapi.comments.render('comments', {
     href: window.location,
-    width: '720',
+    // width: '720',
+    width: document.getElementsByClassName('post')[0].clientWidth.toString(),
     first_party_property: 'BLOGGER',
     view_type: 'FILTERED_POSTMOD'
 });

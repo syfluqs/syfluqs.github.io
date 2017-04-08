@@ -358,6 +358,10 @@ pre.highlight {
   background: #f9f9f9;
 }
 
+.comments {
+  width: 100% !important;
+}
+
 /*
  * Custom type
  *

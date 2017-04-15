@@ -6,7 +6,8 @@ kramdown:
   hard_wrap: false
 
 # Permalinks
-permalink:        pretty
+# permalink:        pretty
+permalink:          /blog/:title
 relative_permalinks: false
 
 # Setup
@@ -26,3 +27,6 @@ paginate:         4
 # raw_images:       raw_img
 # opt_images:       assets
 # images_link:      assets
+
+gems:
+  - jekyll-sitemap

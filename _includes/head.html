@@ -6,6 +6,11 @@
   <!-- Enable responsiveness on mobile devices-->
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 
+  <!-- Adding Description and tags for SEO -->
+  {% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
+  {%if page.tags %}<meta name="keywords" content="{{ page.tags | join: ', ' | escape }}"/>
+  {%endif %}
+
   <title>
     {% if page.title == "Home" %}
       {{ site.title }} &middot; {{ site.tagline }}

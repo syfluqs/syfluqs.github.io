@@ -43,7 +43,7 @@ The default code in <code>browser.html</code> should be like this (may vary with
 </html>
 {% endhighlight %}
 
-Add a <code>link</code> tag under line 6, with href to <code>"style/custom.css"</code>. This file will contains all our custmisations. **Note that the browser.html file will be overwritten everytime the Vivaldi Browser is updated. So this line must be added again, after updating.**
+Add a <code>link</code> tag under line 6, with href to <code>"style/custom.css"</code>. This file will contain all our custmisations. **Note that the browser.html file will be overwritten everytime the Vivaldi Browser is updated. So this line must be added again, after updating.**
 
 After adding the new <code>link</code> tag, <code>browser.html</code> should look like this.
 

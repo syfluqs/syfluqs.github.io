@@ -172,6 +172,12 @@ code {
   word-wrap: break-word;
   background-color: #f9f9f9;
 }*/
+
+img.emoji {
+  display: inline-block;
+  margin-bottom: 0px;
+}
+
 pre {
     display: block;
     margin-top: 0;

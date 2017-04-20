@@ -1,6 +1,6 @@
 ---
 title: mathjax test
-layout: post
+layout: math_post
 ---
 
 - some matchjax symbols $$ \alpha $$

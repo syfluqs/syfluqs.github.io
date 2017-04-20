@@ -35,6 +35,6 @@ But unlike HTML, which is parsed by a web browser, Markdown cannot be directly l
 Kramdown is a ruby based parser, which can parse GFM ('Github Flavored Markdown') and Kramdown syntax text. Both of these are based on the original Markdown syntax. Kramdown sports a built-in syntax highlighter named 'Rouge' (notice the spelling, it's not *Rogue* from X-Men), which comes in handy for us, coders.
 
 
-So, that was all that we needed to know about Jekyll. Now lets get our hands dirty with setting it up...
+So, that was all that we needed to know about Jekyll. Now lets get our hands dirty with setting it up... 
 
-
+[Setting up Jekyll : Part 2]({% link _posts/2017-04-20-setting-up-jekyll-part-2.markdown %})

@@ -30,3 +30,4 @@ paginate:         4
 
 gems:
   - jekyll-sitemap
+  - jemoji

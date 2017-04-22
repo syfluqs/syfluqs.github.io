@@ -1,0 +1,109 @@
+/* Document level adjustments */
+html {
+  font-size: 17px;
+  font-family: Arial, sans-serif;
+}
+body {
+  padding: 0 0rem;
+  margin: 0px;
+}
+.main-body {
+    padding: 0 1rem;
+    margin: 8px;
+}
+h1 {
+  margin-top: 0;
+}
+/*@media (max-width: 900px) {
+  html { font-size: 15px; }
+}
+@media (max-width: 400px) {
+  html { font-size: 13px; }
+}*/
+
+/* Modules will scale with document */
+.header {
+  font-size: 1.5rem;
+}
+.footer {
+  font-size: 0.75rem;
+}
+.sidebar {
+  font-size: 0.85rem;
+}
+
+/* Type will scale with modules */
+h1 {
+  font-size: 3em;
+}
+h2 {
+  font-size: 2.5em;
+}
+h3 {
+  font-size: 2em;
+}
+
+/* layout */
+
+.content {
+  float: left;
+  width: 70%;
+}
+
+.sidebar {
+  float: right;
+  width: 25%;
+}
+
+.footer {
+  clear: both;
+  padding-top: 2em;
+  border-top: solid 1px #ccc;
+}
+
+/*@media (max-width: 900px) {
+  .content { width: 60%; }
+  .sidebar { width: 40%; }
+}
+
+@media (max-width: 400px) {
+  .content, .sidebar { float: none; width: auto; }
+}
+*/
+
+img {
+    width: 100%;
+    max-width: 1000px;
+}
+
+.top_img {
+    width: 100%;
+    height: 100vh;
+    margin: 0px;
+    background: url(img.jpg) no-repeat center/100%;
+    /*background-size: auto 100%;*/
+    background-size: cover;
+    /*background: #CF7BF8;*/
+}
+
+.top_img_filter {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background: rgba(0,128,255,0.25);
+}
+
+.top_img_floater {
+    float: left;
+    height: 35%;
+    width: 100%;
+    margin-bottom: -50px;    
+}
+
+.top_img_title {
+    font-family: sans-serif;
+    font-size: 10rem;
+    position: relative;
+    text-align: center;
+    color: white;
+}

@@ -80,9 +80,10 @@ img {
     width: 100%;
     height: 100vh;
     margin: 0px;
-    background: url(img.jpg) no-repeat center/100%;
+    background: url(img.jpg) no-repeat ;
     /*background-size: auto 100%;*/
     background-size: cover;
+    background-attachment: fixed;
     /*background: #CF7BF8;*/
 }
 
@@ -106,4 +107,103 @@ img {
     position: relative;
     text-align: center;
     color: white;
+}
+
+.next_img {
+    width: 100%;
+    height: 100vh;
+    margin: 0px;
+    background: url(img2.jpg) no-repeat ;
+    /*background-size: auto 100%;*/
+    background-size: cover;
+    background-attachment: fixed;
+    /*background: #CF7BF8;*/
+}
+
+.next_img_filter {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background: rgba(0,255,100,0.25);
+}
+
+.next_img_floater {
+    float: left;
+    height: 35%;
+    width: 100%;
+    margin-bottom: -50px;    
+}
+
+.next_img_title {
+    font-family: sans-serif;
+    font-size: 10rem;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.text-container {
+    margin: 8px;
+    padding: 0 1rem;
+    display: block;
+    font-size: 1rem;
+}
+
+.text-container h1 {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 5rem;
+    color : blue;
+}
+
+.text-content {
+    display: block;
+    font-size: 17px;
+    clear: both;
+    width: 40rem;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+}
+
+.text-content-row {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    margin-left: -25px;
+    margin-right: -25px;
+    display: table;
+    box-sizing: border-box;
+    clear: both;
+}
+
+
+
+.text-content-row-left, .text-content-row-right {
+width: 100%;
+font-size: 34px;
+min-height: 50px;
+}
+
+@media (min-width: 400px) {
+.text-content-row-left, .text-content-row-right {
+    float: left;
+    font-size: 17px;
+    min-height: 100px;
+    /*padding-right: 15px;
+    padding-left: 15px;*/
+}
+}
+
+.text-content-row-left {
+    width : 35%;
+    /*position: relative;*/
+    text-decoration: bold;
+}
+
+.text-content-row-right {
+    width: 65%;
+}
+
+.debug {
+    border: 2px solid red;
 }

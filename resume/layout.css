@@ -14,12 +14,12 @@ body {
 h1 {
   margin-top: 0;
 }
-/*@media (max-width: 900px) {
+@media (max-width: 900px) {
   html { font-size: 15px; }
 }
 @media (max-width: 400px) {
   html { font-size: 13px; }
-}*/
+}
 
 /* Modules will scale with document */
 .header {
@@ -103,7 +103,7 @@ img {
 
 .top_img_title {
     font-family: sans-serif;
-    font-size: 10rem;
+    font-size: 5rem;
     position: relative;
     text-align: center;
     color: white;
@@ -152,58 +152,172 @@ img {
 .text-container h1 {
     text-align: center;
     font-family: sans-serif;
-    font-size: 5rem;
+    font-size: 3rem;
     color : blue;
 }
 
 .text-content {
     display: block;
-    font-size: 17px;
+    font-size: 1rem;
     clear: both;
-    width: 40rem;
+    width: 100%;
     left: 0px;
     right: 0px;
     margin: auto;
 }
 
+@media (min-width: 640px) {
+    .text-content {
+        width:40rem;
+    }
+}
+
 .text-content-row {
     font-size: 1rem;
     margin-bottom: 20px;
-    margin-left: -25px;
-    margin-right: -25px;
+    /*margin-left: -25px;
+    margin-right: -25px;*/
     display: table;
     box-sizing: border-box;
     clear: both;
-}
-
-
-
-.text-content-row-left, .text-content-row-right {
-width: 100%;
-font-size: 34px;
-min-height: 50px;
-}
-
-@media (min-width: 400px) {
-.text-content-row-left, .text-content-row-right {
-    float: left;
-    font-size: 17px;
-    min-height: 100px;
-    /*padding-right: 15px;
-    padding-left: 15px;*/
-}
+    width:100%;
 }
 
 .text-content-row-left {
-    width : 35%;
-    /*position: relative;*/
-    text-decoration: bold;
+    text-decoration-style: 
 }
 
+.text-content-row-left, .text-content-row-right {
+width: 100%;
+font-size: 1rem;
+min-height: 1.5rem;
+/*outline: 2px solid green;*/
+}
+
+.navbar {
+    float: right;
+    position: fixed;
+    background: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin : 15px;
+    padding: 0 15px;
+    z-index: 4;
+    right:0px;
+    top: 35%;
+}
+
+.navbar ul {
+    width:100%;
+    padding: 0px;
+}
+
+.navbar li {
+    width: 100%;
+    padding: 15px 0px;
+    /*border-bottom: 1px dotted blue;*/
+}
+
+@media (min-width: 640px) {
+.text-content-row-left, .text-content-row-right {
+    float: left;
+    font-size: 1rem;
+    min-height: 100px;
+    /*outline: 2px solid red;*/
+}
+
+.text-content-row-left {
+    /*position: relative;*/
+    text-decoration: bold;
+    /*padding: 0 5px;*/
+    width : 35%;
+    }
+
 .text-content-row-right {
+    /*padding: 5px;*/
+    /* find a solution for padding here without disturbing width */
     width: 65%;
 }
 
-.debug {
-    border: 2px solid red;
+}
+
+.row {
+    margin-bottom: 5px;
+    font-size: 1rem;
+    width: 100%;
+    display: table;
+}
+
+.abilities-left-column, .abilities-right-column {
+    width: 100%;
+    font-size: 1rem;
+    box-sizing: border-box;
+}
+
+@media (min-width: 640px) {
+    .abilities-left-column, .abilities-right-column {
+        width: 50%;
+        font-size: 1rem;
+        float: left;
+        box-sizing: border-box;
+        padding: 0 1.5rem;
+    }
+}
+
+.ability_name {
+    width: 60%;
+    display: inline-block;
+    float: left;
+    line-height: 1.2rem;
+    min-height: 1.2rem;
+    /*max-height: 1.2rem;*/
+    /*margin-right: -5rem;*/
+    /*display: table-cell;*/
+}
+
+.ability_rating {
+    width: 5rem;
+    display: inline-block;
+    min-height: 1.2rem;
+    float: right;
+    line-height: 1.2rem;
+    max-height: 1.2rem;
+    top : 0;
+    margin-top: 0px;
+}
+
+.star {
+    position: relative;
+    background: url(star.png);
+    background-size: 1rem 1rem;
+    min-height: 1rem;
+    z-index: 2;
+    top: 0.1rem;
+}
+
+.gray_star {
+    position: relative;
+    background: url(gray_star.png);
+    background-size: 1rem 1rem;
+    width: 5rem;
+    min-height: 1rem;
+    z-index: 1;
+    top: -0.9rem;
+    bottom: 0;
+}
+
+#half_star { width: 0.5rem; }
+#one_star { width: 1rem; }
+#onehalf_star { width: 1.5rem; }
+#two_star { width: 2rem; }
+#twohalf_star {width: 2.5rem; }
+#three_star { width: 3rem; }
+#threehalf_star { width: 3.5rem; }
+#four_star { width: 4rem; }
+#fourhalf_star { width: 4.5rem; }
+#five_star { width: 5rem; }
+
+
+#debug {
+    outline: 2px solid red;
 }

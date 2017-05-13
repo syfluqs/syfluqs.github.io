@@ -8,7 +8,7 @@ body {
   margin: 0px;
 }
 .main-body {
-    padding: 0 1rem;
+    padding: 0 5.5rem;
     margin: 8px;
 }
 h1 {
@@ -351,15 +351,16 @@ min-height: 1.5rem;
     .navbar {
         float: right;
         position: fixed;
-        background: white;
+        background: #4A4A4A;
         border: 1px solid black;
-        border-radius: 5px;
-        margin : 15px;
-        padding: 0 15px;
+        border-radius: 0.4rem;
+        margin : 1rem;
+        padding: 0 1rem;
         z-index: 4;
         right:0px;
         top: 35%;
         width: auto;
+        color: white;
     }
 
     .navbar ul {
@@ -374,7 +375,7 @@ min-height: 1.5rem;
     }
 
     .navbar a {
-        color: black;
+        color: white;
     }
 
     /*.navbar-down-arrow {

@@ -137,7 +137,8 @@ ul {
     right: 0;
     margin: auto;
     box-sizing: border-box;
-    width: 80%;
+    /*width: 80%;*/
+    width: 60rem;
 }
 
 .center-div {

@@ -152,6 +152,8 @@ code,
 pre {
   font-family: Menlo, Monaco, "Courier New", monospace;
 }
+
+
 code {
   padding: .25em .5em;
   font-size: 85%;
@@ -159,6 +161,8 @@ code {
   background-color: #f9f9f9;
   border-radius: 3px;
 }
+
+
 /*pre {
   display: block;
   margin-top: 0;
@@ -347,6 +351,7 @@ td.gutter.gl {
   background: #f9f9f9;
   border-right: 1px solid #e5e5e5;
   color: rgba(0,0,0,0.3);
+  width: 1px;
 }
 
 pre .lineno {

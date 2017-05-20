@@ -144,7 +144,7 @@ bundle exec jekyll serve
 
 
 
-<p style="color: #888888">If you made it to this point, give yourself a pat on your back, because you just read a very ill-constructed post by a person who has no experience in writing. But then, we humans learn from our own mistakes. Kindly provide your constructive criticism <sup style="font-size: 9px">abuses</sup> in the comment box below, I will be glad that you gave me <sup style="font-size: 9px">wasted</sup> your precious time on this post and will help me improve my writing.<br/><br/>But seriously, Thank you for reading!</p> 
+<p style="color: #888888" class="message">If you made it to this point, give yourself a pat on your back, because you just read a very ill-constructed post by a person who has no experience in writing. But then, we humans learn from our own mistakes. Kindly provide your constructive criticism <sup style="font-size: 9px">abuses</sup> in the comment box below, I will be glad that you gave me <sup style="font-size: 9px">wasted</sup> your precious time on this post and will help me improve my writing.<br/><br/>But seriously, Thank you for reading!</p> 
 
 
 [Jekyll Part 3 : The non-Github way]({% link _posts/2017-04-20-setting-up-jekyll-part-2.markdown %})

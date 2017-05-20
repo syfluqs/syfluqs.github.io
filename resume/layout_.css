@@ -259,6 +259,36 @@ ul {
     text-align: center;
 }
 
+.navbar {
+    position: fixed;
+    right: 0;
+    /*width: 5rem;*/
+    padding: 0;
+    margin: 2rem;
+    z-index: 10;
+    top: 30%;
+    border-radius: 0.25rem;
+}
+
+.navbar-link {
+    text-decoration: none !important;
+}
+
+.navbar-item {
+    text-align: center;
+    font-size: 1rem;
+    position: relative;
+    padding: 2rem 1rem;
+    box-sizing: border-box;
+    color: #41323f;
+    border-radius: 0.25rem;
+}
+
+.navbar-item:hover {
+    background: #4f424c;
+    color: #fec418;
+}
+
 /* to accomodate main title */
 @media (max-width: 29rem) {
   html { font-size: 12px; }

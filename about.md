@@ -3,28 +3,32 @@ layout: page
 title: About
 ---
 
-<p class="message">
-  Hey there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on!
-</p>
+##Hey There!
 
-In the novel, *The Strange Case of Dr. Jeykll and Mr. Hyde*, Mr. Poole is Dr. Jekyll's virtuous and loyal butler. Similarly, Poole is an upstanding and effective butler that helps you build Jekyll themes. It's made by [@mdo](https://twitter.com/mdo).
+I am Subham Roy. This blog is an attempt to improve my writing skills and to express myself better through a pen (or a keyboard, in this case). So, let me guide you through a projection of my life on your computer screen. (See what I did there?)
 
-There are currently two themes built on Poole:
+If that was awkward, let me properly introduce myself...
 
-* [Hyde](http://hyde.getpoole.com)
-* [Lanyon](http://lanyon.getpoole.com)
+I am an Electronics Engineer by education. I am currently working as a full-time intern at STMicroelectronics, India. I find all kinds of machines interesting but computers are by far the love of my life. 
 
-Learn more and contribute on [GitHub](https://github.com/poole).
+In this blog, I will either,
+- teach about something that I learned
+- or, learn about something, by teaching it.
 
-## Setup
+{% comment %}
 
-Some fun facts about the setup of this project include:
+### Writing
 
-* Built for [Jekyll](http://jekyllrb.com)
-* Developed on GitHub and hosted for free on [GitHub Pages](https://pages.github.com)
-* Coded with [Sublime Text 2](http://sublimetext.com), an amazing code editor
-* Designed and developed while listening to music like [Blood Bros Trilogy](https://soundcloud.com/maddecent/sets/blood-bros-series)
+To say the least about my writing, I am fine for a few paragraphs, but after that I start spewing a malformed mixture of sentences and words that look nothing short of a genetic experiment gone wrong. I might have exaggerated a little there, but you'll get the idea. Basically, I am not good with forming structure with my words.
 
-Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/poole/issues/new) or [ask me on Twitter](https://twitter.com/mdo).
+So, the motive is to write about various things that I find interesting and if you, the reader, find my writing interesting or boring or shit, please provide some critical comments on which I can build up.
 
-Thanks for reading!
+
+### My other love
+
+Since childhood, I was quite fond of music. I started learning to play a couple of instruments, I tried singing, but it turned out, my adolescent mind was not interested in those. It was not until I heard Jimi Hendrix' 'All Along the Watchtower' that I was fascinated by his style of playing the guitar. 
+Since then, I have followed genres like rock, blues and metal. 
+
+So, I started teaching myself guitar. I played the guitar because it gave me sense of accomplishment when I perfected, say a solo or a lick. It is addictive, but in a good way.
+
+{% endcomment %}

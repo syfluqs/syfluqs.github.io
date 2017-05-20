@@ -377,6 +377,10 @@ pre.highlight {
   width: 100% !important;
 }
 
+#disqus_thread {
+  width: 100% !important;
+}
+
 /*
  * Custom type
  *

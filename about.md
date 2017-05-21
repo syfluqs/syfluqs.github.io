@@ -3,7 +3,7 @@ layout: page
 title: About
 ---
 
-##Hey There!
+## Hey There!
 
 I am Subham Roy. This blog is an attempt to improve my writing skills and to express myself better through a pen (or a keyboard, in this case). So, let me guide you through a projection of my life on your computer screen. (See what I did there?)
 

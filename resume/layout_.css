@@ -354,11 +354,6 @@ ul {
     font-size: 4rem;
     width: 35rem;
     line-height: 4.6rem;
-    /* animations */
-    /*animation-name: i-am-anim;*/
-    /*animation-duration: 8s;*/
-    /*animation-iteration-count: infinite;*/
-    /*transform: translateZ(0);*/
 }
 
 #i-am-cursor {
@@ -373,14 +368,6 @@ ul {
 #i-am-items {
     display: none;
 }
-
-/*@keyframes i-am-anim {
-    0%   {top: -4.6rem;}
-    25%  {top: -9.2rem;}
-    50%  {top: -13.8rem;}
-    75%  {top: -18.4rem;}
-    100% {top: -0rem;}
-}*/
 
 #profile-pic-container {
     height: 0;

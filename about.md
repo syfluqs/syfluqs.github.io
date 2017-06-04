@@ -5,8 +5,6 @@ title: About
 
 ## Hey There!
 
-If that was awkward, let me properly introduce myself...
-
 I am Subham Roy. I am an Electronics Engineer by education. I am currently working as a full-time intern at STMicroelectronics, India. I find all kinds of machines interesting but computers are by far the love of my life. 
 
 This blog is an attempt to improve my writing skills and to express myself better through a pen (or a keyboard, in this case).

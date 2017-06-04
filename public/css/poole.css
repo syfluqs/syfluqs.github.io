@@ -273,9 +273,75 @@ blockquote p:last-child {
 img {
   display: block;
   max-width: 100%;
-  margin: 0 0 1rem;
+  margin: 0 auto; 
+  /* centering the image */
   border-radius: 5px;
+
 }
+
+iframe {
+  width: 100%;
+  box-radius: 5px;
+}
+
+/* console like code display */
+.console {
+  background: #2B303B;
+  color : #EBEBEB;
+  font-family: Menlo, Monaco, "Courier New", monospace;
+  width: 95%;
+  margin: 1.5rem auto;
+  box-shadow: 0 0.25em 1em rgba(57,62,70,.25);
+  line-height: 1.2rem;
+  box-sizing: border-box;
+  /*border-radius: 0.25rem;*/
+}
+
+.console:before {
+    content: "\2022 \2022 \2022";
+    position: relative;
+    display: block;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 0px;
+    margin: 0;
+    padding: 18px 0;
+    margin-bottom: 0.5rem;
+    background: #cecfd1;
+    background: -webkit-linear-gradient(#E9E8E8, #D0D0D0);
+    background: -o-linear-gradient(#E9E8E8, #D0D0D0);
+    background: -moz-linear-gradient(#E9E8E8, #D0D0D0);
+    background: linear-gradient(#E9E8E8, #D0D0D0);
+    color: #ADADAD;
+    font-size: 50px;
+    line-height: 0;
+    text-indent: 0.2rem;
+    box-sizing: border-box;
+}
+
+.console pre {
+  padding:0 0.5rem;
+  display: block;
+  float: left;
+  border-radius: 0;
+  font-size: 0.7rem;
+}
+
+.console div {
+  overflow-x: auto;
+  padding-bottom: 0.5rem;
+}
+
+.console pre:before {
+  content: attr(prompt);
+  display: inline-block;
+  position: relative;
+  /*margin-right: 0.5rem;*/
+  border-radius: 0;
+  color: #56A1E1;
+}
+
 
 /* Tables */
 table {
@@ -379,6 +445,14 @@ pre.highlight {
 
 #disqus_thread {
   width: 100% !important;
+}
+
+.pull_right {
+  float: right;
+}
+
+.pull_left {
+  float: left;
 }
 
 /*

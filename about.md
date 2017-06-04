@@ -5,11 +5,11 @@ title: About
 
 ## Hey There!
 
-I am Subham Roy. This blog is an attempt to improve my writing skills and to express myself better through a pen (or a keyboard, in this case). So, let me guide you through a projection of my life on your computer screen. (See what I did there?)
-
 If that was awkward, let me properly introduce myself...
 
-I am an Electronics Engineer by education. I am currently working as a full-time intern at STMicroelectronics, India. I find all kinds of machines interesting but computers are by far the love of my life. 
+I am Subham Roy. I am an Electronics Engineer by education. I am currently working as a full-time intern at STMicroelectronics, India. I find all kinds of machines interesting but computers are by far the love of my life. 
+
+This blog is an attempt to improve my writing skills and to express myself better through a pen (or a keyboard, in this case).
 
 In this blog, I will either,
 - teach about something that I learned

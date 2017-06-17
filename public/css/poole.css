@@ -284,7 +284,7 @@ iframe {
 
 /* console like code display */
 .console {
-  background: #2B303B;
+  background: #2E2E2E;
   color : #EBEBEB;
   font-family: Menlo, Monaco, "Courier New", monospace;
   width: 95%;
@@ -292,7 +292,7 @@ iframe {
   box-shadow: 0 0.25em 1em rgba(57,62,70,.25);
   line-height: 1.2rem;
   box-sizing: border-box;
-  /*border-radius: 0.25rem;*/
+  border-radius: 0.25rem;
 }
 
 .console:before {
@@ -324,6 +324,7 @@ iframe {
   float: left;
   border-radius: 0;
   font-size: 0.7rem;
+  min-width: 100%
 }
 
 .console div {
